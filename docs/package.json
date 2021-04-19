@@ -10,9 +10,6 @@
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve"
   },
-  "nohoist": [
-    "*use-shopping-cart"
-  ],
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.70",
     "@docusaurus/preset-classic": "2.0.0-alpha.70",
@@ -20,9 +17,6 @@
     "clsx": "^1.1.1",
     "react": "16.13.1",
     "react-dom": "^16.13.1",
-    "use-shopping-cart": "3.0.0-beta.8"
-  },
-  "resolutions": {
     "use-shopping-cart": "3.0.0-beta.8"
   },
   "browserslist": {
