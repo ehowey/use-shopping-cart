@@ -1,7 +1,8 @@
 [build]
-  command = "yarn workspace docs build"
+  base = "/docs"
+  command = "yarn run build"
   publish = "docs/build"
-  # functions = "examples/cra/functions"
+  environment = { NODE_VERSION = "14" }
 
 # Manually start your application (CRA or other) on port 3000 before
 # running `netlify dev` or `yarn dev`.
