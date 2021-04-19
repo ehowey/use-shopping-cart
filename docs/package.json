@@ -22,6 +22,9 @@
     "react-dom": "^16.13.1",
     "use-shopping-cart": "3.0.0-beta.8"
   },
+  "resolutions": {
+    "use-shopping-cart": "3.0.0-beta.8"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
