@@ -1,5 +1,5 @@
 //     Current API
-//     checkoutMode,
+//     mode,
 //     stripePublicKey,
 //     successUrl,
 //     cancelUrl,
@@ -7,10 +7,9 @@
 //     allowedCountries,
 //     billingAddressCollection
 
-
 exports.pluginOptionsSchema = ({ Joi }) => {
   return Joi.object({
-    checkoutMode: Joi.string()
+    mode: Joi.string()
       .required()
       .default(`client-only`)
       .description(
@@ -18,10 +17,10 @@ exports.pluginOptionsSchema = ({ Joi }) => {
       ),
     stripePublicKey: Joi.string()
       .required()
-      .description(`Public key from your Stripe dashboard.`),
+      .description(`Public key from your Stripe dashboard.`)
       .messages({
         // Override the error message if the .required() call fails
-        "any.required": `"Stripe Public Key" needs to be provided. Get the correct value from your Stripe dashboard`,
+        'any.required': `"Stripe Public Key" needs to be provided. Get the correct value from your Stripe dashboard`
       }),
     successUrl: Joi.string()
       .required()

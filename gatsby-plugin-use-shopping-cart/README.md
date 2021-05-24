@@ -4,7 +4,7 @@ Serious WIP.
 
 Here is the first draft of the API.
 
-checkoutMode - String
+mode - String
 stripePublicKey - String
 successUrl - String
 cancelUrl - String

@@ -3,6 +3,7 @@
   "workspaces": [
     "examples/*",
     "use-shopping-cart",
+    "gatsby-plugin-use-shopping-cart",
     "documentation"
   ],
   "scripts": {

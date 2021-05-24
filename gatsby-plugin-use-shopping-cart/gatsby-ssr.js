@@ -3,7 +3,7 @@ import { CartProvider } from 'use-shopping-cart'
 
 export const wrapRootElement = ({ element }, pluginOptions) => {
   const {
-    checkoutMode,
+    mode,
     stripePublicKey,
     successUrl,
     cancelUrl,
@@ -14,7 +14,7 @@ export const wrapRootElement = ({ element }, pluginOptions) => {
 
   return (
     <CartProvider
-      mode={checkoutMode}
+      mode={mode}
       stripe={stripePublicKey}
       successUrl={successUrl}
       cancelUrl={cancelUrl}
