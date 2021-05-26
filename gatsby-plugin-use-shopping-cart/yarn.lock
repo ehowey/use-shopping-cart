@@ -148,7 +148,7 @@ reselect@^4.0.0:
   resolved "https://registry.yarnpkg.com/reselect/-/reselect-4.0.0.tgz#f2529830e5d3d0e021408b246a206ef4ea4437f7"
   integrity sha512-qUgANli03jjAyGlnbYVAV5vvnOmJnODyABz51RdBN7M4WaVu8mecZWgyQNkG8Yqe3KRGRt0l4K4B3XVEULC4CA==
 
-use-shopping-cart@^3.0.0-beta.16:
+use-shopping-cart@^3.0.0-beta.15:
   version "3.0.0-beta.16"
   resolved "https://registry.yarnpkg.com/use-shopping-cart/-/use-shopping-cart-3.0.0-beta.16.tgz#4ebaf5cacdab69cd868d3612472bb01f95a1d96d"
   integrity sha512-WHEaKomK+XB63erhYBgJHBas0wF0+6XFug/QWXDYmRY9KvO4RamX3N+IcJ4k2dL23kxq5KjD4jmiAoZGJZgp0Q==

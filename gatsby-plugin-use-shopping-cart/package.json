@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-use-shopping-cart",
-  "version": "3.0.0-beta.1",
+  "version": "0.0.1",
   "description": "A minimal boilerplate for the essential files Gatsby looks for in a plugin",
   "author": "Eric Howey <ehowey@gmail.com>",
   "main": "index.js",

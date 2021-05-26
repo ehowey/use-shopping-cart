@@ -6,7 +6,7 @@ import Header from './header'
 import './layout.css'
 import stripeLogo from '../images/powered_by_stripe.svg'
 
-import '@stripe/stripe-js' // https://github.com/stripe/stripe-js#import-as-a-side-effect
+// import '@stripe/stripe-js' // https://github.com/stripe/stripe-js#import-as-a-side-effect
 
 const Layout = ({ children }) => (
   <StaticQuery

@@ -1,13 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 
 const SuccessPage = () => {
   return (
     <Layout>
-      <SEO title="Payment Success" />
+      <Seo title="Payment Success" />
       <h1>Success!</h1>
       <Link to="/">Shop again</Link>
     </Layout>
