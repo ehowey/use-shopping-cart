@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 // import Skus from '../components/Products/Skus'
-// import CartOverview from '../components/CartOverview'
+import CartOverview from '../components/CartOverview'
 
 const CartExample = () => (
   <Layout>
@@ -12,8 +12,8 @@ const CartExample = () => (
       With{' '}
       <a href="https://use-shopping-cart.netlify.app/">use-shopping-cart</a>
     </h2>
-    {/* <CartOverview />
-    <Skus /> */}
+    <CartOverview />
+    {/* <Skus /> */}
   </Layout>
 )
 
